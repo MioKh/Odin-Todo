@@ -9,6 +9,56 @@
     <title>Odin-Todo</title>
 </head>
 <body>
-    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Semantic Layout</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <h1>To Do List</h1>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <Button class="addButton"></Button>
+            </main>
+            <aside>
+                <header>
+                    <h2>Sidebar Header</h2>
+                </header>
+                
+                <section class="search-bar" aria-labelledby="search-heading">
+                    <h3 id="search-heading">Search</h3>
+                    <input type="text" placeholder="Search...">
+                </section>
+                
+                <section class="tasks" aria-labelledby="tasks-heading">
+                    <h3 id="tasks-heading">Tasks</h3>
+                </section>
+                
+                <section class="lists" aria-labelledby="lists-heading">
+                    <h3 id="lists-heading">Lists</h3>
+
+                </section>
+                
+                <section class="tags" aria-labelledby="tags-heading">
+                    <h3 id="tags-heading">Tags</h3>
+                </section>
+                
+                <footer class="sidebar-footer">
+                    <ul>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Sign Out</a></li>
+                    </ul>
+                </footer>
+            </aside>
+        </div>  
+    <script src="index.js"></script>
 </body>
 </html>

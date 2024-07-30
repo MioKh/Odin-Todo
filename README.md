@@ -2,6 +2,14 @@
 
 A simple ToDo app built with HTML, CSS, and JavaScript following The Odin Project curriculum.
 
+as always you have to run 
+
+```bash
+npm install
+```
+
+to install the dependencies for it to work.
+
 ## Features
 
 - Implement a testing layout using HTML and Tailwind CSS.
